@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>测量数据集 | 智能交通电波传播研究团队</title>
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/flaticon.css">
+  <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
+  <link rel="stylesheet" href="/assets/css/portal.css">
+  
+</head>
+<body class="resource-portal">
+  <header class="portal-nav">
+    <div class="container portal-nav-inner">
+      <a class="portal-brand" href="/"><span class="portal-brand-mark">ITPR</span><span>智能交通电波传播研究团队</span></a>
+      <nav class="portal-menu">
+        <a class="" href="/">首页</a><a class="" href="/about/">实验室概况</a><a class="active" href="/datasets/">数据资源</a><a class="" href="/platforms/">平台入口</a><a class="" href="/news/">科研动态</a><a class="" href="/resources/">内部工具</a><a class="" href="/contact/">联系我们</a>
+      </nav>
+    </div>
+  </header>
+  <section class="portal-hero">
+  <div class="container">
+    <div class="">
+      <div>
+        <span class="portal-eyebrow">Datasets</span>
+        <h1>测量数据集</h1>
+        <p>面向典型室内、高速铁路、车联网等真实场景采集的无线信道测量数据。</p>
+        
+      </div>
+      
+    </div>
+  </div>
+</section>
+  <section class="portal-section">
+    <div class="container">
+      <div class="filter-bar">
+        <input data-filter-search type="search" placeholder="搜索数据集名称、简介、标签">
+        <select data-filter-select="scene"><option value="">全部场景</option><option value="5G-R">5G-R</option><option value="铁路环行线">铁路环行线</option><option value="高速移动">高速移动</option><option value="轨道交通">轨道交通</option><option value="高速铁路">高速铁路</option><option value="京津城际">京津城际</option><option value="公网被动测量">公网被动测量</option><option value="车载测试">车载测试</option><option value="合新高铁">合新高铁</option><option value="高动态车流">高动态车流</option><option value="城市街道">城市街道</option><option value="道路交通">道路交通</option><option value="动态传播">动态传播</option><option value="城市街巷">城市街巷</option><option value="城郊区">城郊区</option><option value="V2I">V2I</option><option value="道路传播">道路传播</option><option value="车载ISAC">车载ISAC</option><option value="道路行驶">道路行驶</option><option value="前向感知">前向感知</option><option value="侧向感知">侧向感知</option><option value="校园道路">校园道路</option><option value="左侧感知">左侧感知</option><option value="地铁隧道">地铁隧道</option><option value="被动测量">被动测量</option><option value="封闭空间">封闭空间</option><option value="开阔室外">开阔室外</option><option value="ISAC">ISAC</option><option value="LoS">LoS</option><option value="毫米波">毫米波</option><option value="多散射体室外">多散射体室外</option><option value="复杂多径">复杂多径</option><option value="区域动态">区域动态</option><option value="LOS/NLOS">LOS/NLOS</option><option value="SISO/SIMO">SISO/SIMO</option><option value="环境校准">环境校准</option><option value="城市道路">城市道路</option><option value="视觉信道">视觉信道</option><option value="MIMO">MIMO</option><option value="人体感知">人体感知</option><option value="微多普勒">微多普勒</option><option value="室内测量">室内测量</option><option value="手势动作">手势动作</option><option value="多频段">多频段</option><option value="多场景">多场景</option><option value="室内大厅">室内大厅</option><option value="多带宽">多带宽</option><option value="会议室">会议室</option><option value="室内">室内</option><option value="SIMO">SIMO</option><option value="点云同步">点云同步</option><option value="城区十字路口">城区十字路口</option><option value="V2V">V2V</option><option value="隧道">隧道</option><option value="城区">城区</option><option value="郊区">郊区</option><option value="路口">路口</option><option value="北京城区">北京城区</option><option value="公里级测试">公里级测试</option></select>
+        <select data-filter-select="band"><option value="">全部频段</option><option value="2.16GHz">2.16GHz</option><option value="联通/移动商用频段">联通/移动商用频段</option><option value="3GHz">3GHz</option><option value="30MHz-5.8GHz">30MHz-5.8GHz</option><option value="28GHz">28GHz</option><option value="1.8GHz">1.8GHz</option><option value="2.4GHz">2.4GHz</option><option value="5.9GHz">5.9GHz</option><option value="4.8GHz">4.8GHz</option><option value="690MHz~5.9GHz">690MHz~5.9GHz</option><option value="5.8GHz">5.8GHz</option></select>
+        <select data-filter-select="modality"><option value="">全部模态</option><option value="IQ">IQ</option><option value="PDP">PDP</option><option value="路径参数">路径参数</option><option value="GNSS轨迹">GNSS轨迹</option><option value="点云">点云</option><option value="测量日志">测量日志</option><option value="公网测试数据">公网测试数据</option><option value="轨迹">轨迹</option><option value="视觉图像">视觉图像</option><option value="公网/信道测试数据">公网/信道测试数据</option></select>
+        <select data-filter-select="status"><option value="">全部开放状态</option><option value="申请开放">申请开放</option></select>
+      </div>
+      <div class="portal-grid" data-pagination-page-size="6"><article class="portal-card dataset-card"
+    data-scene="5G-R,铁路环行线,高速移动,轨道交通"
+    data-band="2.16GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,点云,测量日志"
+    data-status="申请开放">
+    <h3>5G-R东郊环线数据集</h3>
+    <p>面向5G-R铁路通信场景的环行线信道测量数据，覆盖顺时针与逆时针往复运行条件下的轨道移动传播特性。</p>
+    <div class="tag-row"><span class="tag red">5G-R</span><span class="tag red">铁路环行线</span><span class="tag red">高速移动</span><span class="tag red">轨道交通</span></div>
+    <div class="tag-row"><span class="tag ">2.16GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">点云</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 141GB</p>
+    <p><strong>采集时间：</strong>2024-04-17</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/5gr-01/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="高速铁路,京津城际,公网被动测量,车载测试"
+    data-band="联通/移动商用频段"
+    data-modality="公网测试数据,轨迹,测量日志"
+    data-status="申请开放">
+    <h3>京津城际被动式测量数据集</h3>
+    <p>京津城际铁路沿线公网被动式测量数据，记录车载移动条件下联通、移动商用网络的覆盖与链路变化特征。</p>
+    <div class="tag-row"><span class="tag red">高速铁路</span><span class="tag red">京津城际</span><span class="tag red">公网被动测量</span><span class="tag red">车载测试</span></div>
+    <div class="tag-row"><span class="tag ">联通/移动商用频段</span></div>
+    <div class="tag-row"><span class="tag ">公网测试数据</span><span class="tag ">轨迹</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 1.06GB</p>
+    <p><strong>采集时间：</strong>2024-07-18</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/5gr-02/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="高速铁路,合新高铁,公网被动测量,车载测试"
+    data-band="联通/移动商用频段"
+    data-modality="公网测试数据,轨迹,测量日志"
+    data-status="申请开放">
+    <h3>合新高铁被动式测量数据集</h3>
+    <p>合新高铁车载公网被动测量数据，覆盖高速铁路沿线商用网络信号变化和链路质量统计信息。</p>
+    <div class="tag-row"><span class="tag red">高速铁路</span><span class="tag red">合新高铁</span><span class="tag red">公网被动测量</span><span class="tag red">车载测试</span></div>
+    <div class="tag-row"><span class="tag ">联通/移动商用频段</span></div>
+    <div class="tag-row"><span class="tag ">公网测试数据</span><span class="tag ">轨迹</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 1.64GB</p>
+    <p><strong>采集时间：</strong>2025-08-15</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/5gr-03/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="高动态车流,城市街道,道路交通,动态传播"
+    data-band="3GHz"
+    data-modality="IQ,PDP,测量日志"
+    data-status="申请开放">
+    <h3>高动态车流场景信道数据集</h3>
+    <p>面向街道高动态车流环境的3GHz信道测量数据，用于验证道路交通目标运动对信道动态性的影响。</p>
+    <div class="tag-row"><span class="tag red">高动态车流</span><span class="tag red">城市街道</span><span class="tag red">道路交通</span><span class="tag red">动态传播</span></div>
+    <div class="tag-row"><span class="tag ">3GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>To be updated</p>
+    <p><strong>采集时间：</strong>2025-12-10</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/cl/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="城市街巷,城郊区,V2I,道路传播"
+    data-band="30MHz-5.8GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,测量日志"
+    data-status="申请开放">
+    <h3>长沙城郊区城市街巷信道数据集</h3>
+    <p>长沙望城区城郊街巷场景下的多频段信道测量数据，覆盖城市道路、建筑遮挡和街巷传播环境。</p>
+    <div class="tag-row"><span class="tag red">城市街巷</span><span class="tag red">城郊区</span><span class="tag red">V2I</span><span class="tag red">道路传播</span></div>
+    <div class="tag-row"><span class="tag ">30MHz-5.8GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 5TB</p>
+    <p><strong>采集时间：</strong>2024-12 至 2025-01</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/cs-01/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="城市街巷,城郊区,V2I,道路传播"
+    data-band="30MHz-5.8GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,测量日志"
+    data-status="申请开放">
+    <h3>北京城郊区城市街巷信道数据集</h3>
+    <p>北京城郊街巷环境下的多频段信道测量数据，面向城市道路复杂遮挡和多径传播特性分析。</p>
+    <div class="tag-row"><span class="tag red">城市街巷</span><span class="tag red">城郊区</span><span class="tag red">V2I</span><span class="tag red">道路传播</span></div>
+    <div class="tag-row"><span class="tag ">30MHz-5.8GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 5TB</p>
+    <p><strong>采集时间：</strong>2024-12 至 2025-01</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/cs-02/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="车载ISAC,道路行驶,前向感知,侧向感知"
+    data-band="28GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,视觉图像,测量日志"
+    data-status="申请开放">
+    <h3>车载ISAC感知信道数据集</h3>
+    <p>28GHz车载ISAC感知信道测量数据，覆盖车辆行驶过程中的前方、左侧和右侧多方向感知链路。</p>
+    <div class="tag-row"><span class="tag red">车载ISAC</span><span class="tag red">道路行驶</span><span class="tag red">前向感知</span><span class="tag red">侧向感知</span></div>
+    <div class="tag-row"><span class="tag ">28GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">视觉图像</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 17.2GB</p>
+    <p><strong>采集时间：</strong>2023-08-10</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/cz-01/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="校园道路,车载ISAC,左侧感知,动态传播"
+    data-band="28GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,视觉图像,点云,测量日志"
+    data-status="申请开放">
+    <h3>校园动态车载ISAC信道数据集</h3>
+    <p>北交大校园道路动态车载ISAC信道数据，重点覆盖左侧感知和多天线切换接收条件。</p>
+    <div class="tag-row"><span class="tag red">校园道路</span><span class="tag red">车载ISAC</span><span class="tag red">左侧感知</span><span class="tag red">动态传播</span></div>
+    <div class="tag-row"><span class="tag ">28GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">视觉图像</span><span class="tag ">点云</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>To be updated</p>
+    <p><strong>采集时间：</strong>2024-03-10</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/cz-02/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="地铁隧道,轨道交通,被动测量,封闭空间"
+    data-band="1.8GHz,2.4GHz"
+    data-modality="公网/信道测试数据,轨迹,视觉图像,点云,测量日志"
+    data-status="申请开放">
+    <h3>地铁隧道测量数据集</h3>
+    <p>北京地铁11号线隧道环境下的被动式测量数据，记录轨道交通封闭空间内的信道变化和辅助感知信息。</p>
+    <div class="tag-row"><span class="tag red">地铁隧道</span><span class="tag red">轨道交通</span><span class="tag red">被动测量</span><span class="tag red">封闭空间</span></div>
+    <div class="tag-row"><span class="tag ">1.8GHz</span><span class="tag ">2.4GHz</span></div>
+    <div class="tag-row"><span class="tag ">公网/信道测试数据</span><span class="tag ">轨迹</span><span class="tag ">视觉图像</span><span class="tag ">点云</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>To be updated</p>
+    <p><strong>采集时间：</strong>2023-04-21</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/dt/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="开阔室外,ISAC,LoS,毫米波"
+    data-band="28GHz"
+    data-modality="IQ,PDP,路径参数,测量日志"
+    data-status="申请开放">
+    <h3>开阔室外ISAC信道数据集</h3>
+    <p>北交大西操场开阔室外环境下的28GHz ISAC信道数据，用于分析通信与感知信道相关性特征。</p>
+    <div class="tag-row"><span class="tag red">开阔室外</span><span class="tag red">ISAC</span><span class="tag red">LoS</span><span class="tag red">毫米波</span></div>
+    <div class="tag-row"><span class="tag ">28GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 364MB</p>
+    <p><strong>采集时间：</strong>2022-11-18</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/hw-01/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="多散射体室外,ISAC,毫米波,复杂多径"
+    data-band="28GHz"
+    data-modality="IQ,PDP,路径参数,视觉图像,测量日志"
+    data-status="申请开放">
+    <h3>多散射体室外ISAC信道数据集</h3>
+    <p>北交大科学会堂前多散射体室外环境下的28GHz ISAC信道数据，用于分析复杂多径条件下的通感信道差异性。</p>
+    <div class="tag-row"><span class="tag red">多散射体室外</span><span class="tag red">ISAC</span><span class="tag red">毫米波</span><span class="tag red">复杂多径</span></div>
+    <div class="tag-row"><span class="tag ">28GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">视觉图像</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 485MB</p>
+    <p><strong>采集时间：</strong>2022-11-27</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/hw-02/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="区域动态,LOS/NLOS,SISO/SIMO,环境校准"
+    data-band="5.9GHz"
+    data-modality="IQ,PDP,路径参数,测量日志"
+    data-status="申请开放">
+    <h3>区域SIMO动态数据集</h3>
+    <p>5.9GHz区域动态场景下的SISO/SIMO测量数据，用于LOS/NLOS环境校准和区域传播模型验证。</p>
+    <div class="tag-row"><span class="tag red">区域动态</span><span class="tag red">LOS/NLOS</span><span class="tag red">SISO/SIMO</span><span class="tag red">环境校准</span></div>
+    <div class="tag-row"><span class="tag ">5.9GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 5GB</p>
+    <p><strong>采集时间：</strong>2024-05-01</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/hw-03/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="城市道路,视觉信道,MIMO,V2I"
+    data-band="4.8GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,视觉图像,测量日志"
+    data-status="申请开放">
+    <h3>横滨城区视觉信道数据集</h3>
+    <p>日本横滨市区4.8GHz MIMO视觉信道数据，接收端搭载相机以支持城市环境感知与信道联合分析。</p>
+    <div class="tag-row"><span class="tag red">城市道路</span><span class="tag red">视觉信道</span><span class="tag red">MIMO</span><span class="tag red">V2I</span></div>
+    <div class="tag-row"><span class="tag ">4.8GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">视觉图像</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 500GB</p>
+    <p><strong>采集时间：</strong>2023-12-01</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/jp-01/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="人体感知,微多普勒,室内测量,手势动作"
+    data-band="28GHz"
+    data-modality="IQ,PDP,路径参数,视觉图像,点云,测量日志"
+    data-status="申请开放">
+    <h3>微多普勒人体感知信道数据集</h3>
+    <p>28GHz人体感知信道测量数据，面向人体动作、散射点分布和微多普勒感知特征建模。</p>
+    <div class="tag-row"><span class="tag red">人体感知</span><span class="tag red">微多普勒</span><span class="tag red">室内测量</span><span class="tag red">手势动作</span></div>
+    <div class="tag-row"><span class="tag ">28GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">视觉图像</span><span class="tag ">点云</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 266GB</p>
+    <p><strong>采集时间：</strong>2024-09-20</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/it/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="校园道路,多频段,多场景,V2I"
+    data-band="690MHz~5.9GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,视觉图像,测量日志"
+    data-status="申请开放">
+    <h3>校园多频段多场景数据集</h3>
+    <p>北交大校园内多高度、多频段、多场景V2I测量数据，覆盖从690MHz到5.9GHz的跨频段传播特性。</p>
+    <div class="tag-row"><span class="tag red">校园道路</span><span class="tag red">多频段</span><span class="tag red">多场景</span><span class="tag red">V2I</span></div>
+    <div class="tag-row"><span class="tag ">690MHz~5.9GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">视觉图像</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 2.31TB</p>
+    <p><strong>采集时间：</strong>2023-06-02</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/mm/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="室内大厅,ISAC,多带宽,毫米波"
+    data-band="28GHz"
+    data-modality="IQ,PDP,路径参数,视觉图像,测量日志"
+    data-status="申请开放">
+    <h3>室内多带宽ISAC信道数据集</h3>
+    <p>思源楼大厅室内28GHz ISAC信道数据，覆盖0.1GHz至1GHz不同带宽配置下的通感信道特性。</p>
+    <div class="tag-row"><span class="tag red">室内大厅</span><span class="tag red">ISAC</span><span class="tag red">多带宽</span><span class="tag red">毫米波</span></div>
+    <div class="tag-row"><span class="tag ">28GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">视觉图像</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 308MB</p>
+    <p><strong>采集时间：</strong>2023-10-16</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/sn/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="会议室,室内,SIMO,点云同步"
+    data-band="28GHz"
+    data-modality="IQ,PDP,路径参数,点云,测量日志"
+    data-status="申请开放">
+    <h3>思源1101典型会议室数据集</h3>
+    <p>思源1101会议室内28GHz SIMO测量数据，围绕会议桌路线采集信道响应并同步点云信息。</p>
+    <div class="tag-row"><span class="tag red">会议室</span><span class="tag red">室内</span><span class="tag red">SIMO</span><span class="tag red">点云同步</span></div>
+    <div class="tag-row"><span class="tag ">28GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">点云</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 3GB</p>
+    <p><strong>采集时间：</strong>2025-11-01</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/sy/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="城区十字路口,视觉信道,V2I,道路交通"
+    data-band="5.9GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,视觉图像,测量日志"
+    data-status="申请开放">
+    <h3>城区十字路口视觉信道数据集</h3>
+    <p>北交大校园十字路口V2I视觉信道数据，发射端固定相机以记录交通路口环境变化。</p>
+    <div class="tag-row"><span class="tag red">城区十字路口</span><span class="tag red">视觉信道</span><span class="tag red">V2I</span><span class="tag red">道路交通</span></div>
+    <div class="tag-row"><span class="tag ">5.9GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">视觉图像</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 1.18TB</p>
+    <p><strong>采集时间：</strong>2024-03-16</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/sz/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="V2V,隧道,城区,郊区,路口,ISAC"
+    data-band="28GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,视觉图像,点云,测量日志"
+    data-status="申请开放">
+    <h3>毫米波V2V场景信道数据集</h3>
+    <p>28GHz毫米波V2V多场景信道测量数据，覆盖隧道、城区、郊区、通感和路口等典型车辆通信环境。</p>
+    <div class="tag-row"><span class="tag red">V2V</span><span class="tag red">隧道</span><span class="tag red">城区</span><span class="tag red">郊区</span><span class="tag red">路口</span><span class="tag red">ISAC</span></div>
+    <div class="tag-row"><span class="tag ">28GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">视觉图像</span><span class="tag ">点云</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>To be updated</p>
+    <p><strong>采集时间：</strong>2025-09-19</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/v2v/">查看详情</a>
+  </article><article class="portal-card dataset-card"
+    data-scene="城市街巷,北京城区,公里级测试,V2I"
+    data-band="5.8GHz"
+    data-modality="IQ,PDP,路径参数,GNSS轨迹,测量日志"
+    data-status="申请开放">
+    <h3>北京城区公里级测试数据集</h3>
+    <p>北京城郊区公里级城市街巷测试数据，面向城市道路长距离传播和多频段信道建模。</p>
+    <div class="tag-row"><span class="tag red">城市街巷</span><span class="tag red">北京城区</span><span class="tag red">公里级测试</span><span class="tag red">V2I</span></div>
+    <div class="tag-row"><span class="tag ">5.8GHz</span></div>
+    <div class="tag-row"><span class="tag ">IQ</span><span class="tag ">PDP</span><span class="tag ">路径参数</span><span class="tag ">GNSS轨迹</span><span class="tag ">测量日志</span></div>
+    <p><strong>数据规模：</strong>约 6.75GB</p>
+    <p><strong>采集时间：</strong>2024-12 至 2025-01</p>
+    <p><span class="status apply">申请开放</span></p>
+    <a class="portal-btn secondary" href="/datasets/bj/">查看详情</a>
+  </article></div>
+      <div class="portal-list-meta" data-pagination-status></div><div class="portal-pagination" data-pagination></div>
+    </div>
+  </section><script>
+const search = document.querySelector('[data-filter-search]');
+const selects = [...document.querySelectorAll('[data-filter-select]')];
+const cards = [...document.querySelectorAll('.dataset-card')];
+const pageSize = Number(document.querySelector('[data-pagination-page-size]')?.dataset.paginationPageSize || 6);
+const statusNode = document.querySelector('[data-pagination-status]');
+const paginationNode = document.querySelector('[data-pagination]');
+let currentPage = 1;
+function renderPagination() {
+  const visibleCards = cards.filter(card => card.dataset.filterVisible !== '0');
+  const total = visibleCards.length;
+  const totalPages = Math.max(1, Math.ceil(total / pageSize));
+  currentPage = Math.min(Math.max(currentPage, 1), totalPages);
+  const start = (currentPage - 1) * pageSize;
+  const end = start + pageSize;
+  cards.forEach(card => card.style.display = 'none');
+  visibleCards.slice(start, end).forEach(card => card.style.display = '');
+  if (statusNode) {
+    statusNode.textContent = total ? '共 ' + total + ' 条，当前第 ' + currentPage + ' / ' + totalPages + ' 页' : '暂无匹配结果';
+  }
+  if (!paginationNode) return;
+  paginationNode.innerHTML = '';
+  if (totalPages <= 1) return;
+  const makeButton = (label, page, disabled, active) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'portal-page-btn' + (active ? ' active' : '');
+    button.textContent = label;
+    button.disabled = disabled;
+    button.addEventListener('click', () => {
+      currentPage = page;
+      renderPagination();
+      document.querySelector('.filter-bar')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    paginationNode.appendChild(button);
+  };
+  makeButton('上一页', currentPage - 1, currentPage === 1, false);
+  for (let page = 1; page <= totalPages; page += 1) makeButton(String(page), page, false, page === currentPage);
+  makeButton('下一页', currentPage + 1, currentPage === totalPages, false);
+}
+function applyFilters() {
+  const q = (search?.value || '').trim().toLowerCase();
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    const passText = !q || text.includes(q);
+    const passSelects = selects.every(sel => !sel.value || (card.dataset[sel.dataset.filterSelect] || '').includes(sel.value));
+    card.dataset.filterVisible = passText && passSelects ? '1' : '0';
+  });
+  currentPage = 1;
+  renderPagination();
+}
+search?.addEventListener('input', applyFilters);
+selects.forEach(sel => sel.addEventListener('change', applyFilters));
+applyFilters();
+</script>
+  <footer class="portal-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <h4>智能交通电波传播研究团队</h4>
+          <p>北京交通大学现代通信研究所。面向智能交通、无线信道、数字孪生与AI推演的科研资源门户。</p>
+        </div>
+        
+        <div class="col-lg-3">
+          <h4>资源入口</h4>
+          <p><a href="/datasets/">数据资源</a> · <a href="/platforms/">平台资源</a> · <a href="/resources/">内部资源</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h4>联系方式</h4>
+          <p>北京市海淀区西直门外上园村3号<br><a href="mailto:contact@example.com">contact@example.com</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
